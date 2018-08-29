@@ -6,7 +6,7 @@ class Book
 
 
   def genre=(genre)
-    @genre = genre
+    @genre = GENRES
   end
 
   def initialize(title)
